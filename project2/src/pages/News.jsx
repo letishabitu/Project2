@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import Form from '../components/Form';
+import NewsDisplay from '../components/NewsDisplay';
 
 function News() {
   const [news, setNews] = useState(null);
@@ -39,7 +40,7 @@ function News() {
       <h3>This is News page</h3>
       
       <Form newssearch= {getNews} />
-      {/* <NassaDisplay nassa={nassa}/> */}
+      <NewsDisplay news={news}/>
       
 
       </div>
