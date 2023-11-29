@@ -9,10 +9,10 @@ function News() {
   // Function getNews
   const getNews = async (searchTerm) => {
     // create a variable that combines the parts of the url into one
-    const baseUrl = 'https://newsapi.org';
-    const endPoint = '/v2/top-headlines';
-    const apikey = 'e4ed38c384da48589ce96e8354663e1b'
-    const url = baseUrl  + endPoint + '?' + searchTerm + '&' + 'apikey=' + apikey;
+    const baseUrl = 'https://api.nytimes.com/svc/search/v2/';
+    const endPoint = 'articlesearch.json';
+    const apikey = 'T25S6Mv2pADGOwnDiXcOWTZwWiZiHijX'
+    const url = baseUrl  + endPoint + '?q=' + searchTerm + '&' + 'api-key=' + apikey;
     // make fetch request and store response
     console.log(url);
     try {

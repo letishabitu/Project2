@@ -33,7 +33,7 @@ function Form(props) {
                 <input type="submit" value="submit" />
 
             </form>
-            {<p>search parameter as 'sources=bbc-news'</p>}
+            {<p>search parameter as 'election' or some keyword</p>}
             
         </div>
     )
