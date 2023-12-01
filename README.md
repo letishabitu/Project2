@@ -4,5 +4,8 @@ They have a wide range of APIs, and I select the article search API to work with
 I have deployed my application in Netlify and here is the link: https://6568b60c05e68f0084ae7af0--shimmering-cannoli-b8902b.netlify.app/
 I have two components heres, the form and the News one. 
 I use useEffect also. 
+                                                     
+  
+                                                  
 
 # Project2
