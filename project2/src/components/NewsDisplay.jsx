@@ -13,7 +13,7 @@ function NewsDisplay({ news }) {
              return(
                 <>
                 <h3>{abstract}</h3>
-                <h3>{web_url}</h3> 
+                
                 <a href={web_url}> click link here</a>
                 </>
                 
